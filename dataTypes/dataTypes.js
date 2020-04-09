@@ -240,22 +240,20 @@ let str4 = '';
 
 // ***************** Undefined *****************
 
-let a = undefined;
+// let a = undefined;
 
-// null = 0.
-
-console.log(undefined + undefined); // NaN
-console.log(typeof (undefined + undefined)); // number
-console.log('****************');
-
-console.log(undefined - undefined); // NaN
-console.log(typeof (null - null)); // number
-console.log('****************');
-
-console.log(undefined * undefined); // NaN
-console.log(typeof (undefined * undefined)); // number
-console.log('****************');
-
-console.log(undefined / undefined); // NaN
-console.log(typeof (undefined / undefined)); // number
-console.log('****************');
+// console.log(undefined + undefined); // NaN
+// console.log(typeof (undefined + undefined)); // number
+// console.log('****************');
+//
+// console.log(undefined - undefined); // NaN
+// console.log(typeof (null - null)); // number
+// console.log('****************');
+//
+// console.log(undefined * undefined); // NaN
+// console.log(typeof (undefined * undefined)); // number
+// console.log('****************');
+//
+// console.log(undefined / undefined); // NaN
+// console.log(typeof (undefined / undefined)); // number
+// console.log('****************');
