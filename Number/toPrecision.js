@@ -3,7 +3,7 @@ let numObj = 5.123456;
 
 console.log(typeof numObj.toPrecision());    // 'string'
 console.log(numObj.toPrecision());    // '5.123456'
-console.log(numObj.toPrecision(5));   // '5.1235'
+console.log(numObj.toPrecision(5));   // '5.1235' заокруглило!!!
 console.log(numObj.toPrecision(2));   // '5.1'
 console.log(numObj.toPrecision(1));   // '5'
 
