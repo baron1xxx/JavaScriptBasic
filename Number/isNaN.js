@@ -61,4 +61,3 @@ console.log(Number.isNaN('')); // false
 console.log(Number.isNaN(null)); // false
 console.log(Number.isNaN(50)); // false
 console.log(Number.isNaN(NaN)); // true
-
