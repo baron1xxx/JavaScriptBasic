@@ -1,5 +1,6 @@
 // toFixed - форматує число в число з фіксованою точкою.
 // numObj.toFixed([digits]) digits 0...20
+
 console.log(1..toFixed());  // 1
 console.log((1).toFixed());  // 1
 console.log((1).toFixed(2));  // 1.00
