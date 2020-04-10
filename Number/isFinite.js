@@ -46,12 +46,3 @@ console.log(Number.isFinite(null)); //false
 console.log(Number.isFinite('25')); //false
 console.log(Number.isFinite(25)); // true
 console.log(Number.isFinite(25.58)); //  true
-
-
-// console.log(Number.isInteger(5));
-// console.log(Number.isInteger(5));
-// console.log(Number.isInteger(5));
-// console.log(Number.isInteger(5));
-// console.log(Number.isInteger(5));
-// console.log(Number.isInteger(5));
-// console.log(Number.isInteger(5));
