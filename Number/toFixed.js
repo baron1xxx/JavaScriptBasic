@@ -14,4 +14,3 @@ console.log(1.3333333333.toFixed(2));  // 1.33
 console.log(1.3333333333.toFixed(5));  // 1.33333
 console.log(1.25555.toFixed(3));  // 1.256 заокруглює
 console.log(1.25544.toFixed(3));  // 1.255 заокруглює
-
