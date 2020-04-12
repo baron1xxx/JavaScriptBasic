@@ -21,7 +21,6 @@ console.log('string' + Infinity);// stringInfinity
  */
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-console.log(typeof 'str'); // string
+console.log(typeof 'str'); /* string*/
 console.log(typeof String('str')); // string
 console.log(typeof new String('str')); // object
