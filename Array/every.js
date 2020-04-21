@@ -24,7 +24,7 @@ const arr4 = arr3.every((element, index, array) => {
     console.log(element);
     console.log(index);
     console.log(array);
-    console.log(element === 'string');
+    console.log(typeof element === 'string');
     return typeof element === 'string'
 });
 console.log(arr4); // true
