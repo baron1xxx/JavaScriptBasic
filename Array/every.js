@@ -7,16 +7,16 @@
  */
 // arr.every(callback(element, index, array)
 
-// let arr1 = [6, 12, '15', 100];
-//
-// const arr2 = arr1.every((element, index, array) => {
-//     console.log(element);
-//     console.log(index);
-//     console.log(array);
-//     console.log(element === 'string');
-//     return typeof element === 'string'
-// });
-// console.log(arr2); // false
+let arr1 = [6, 12, '15', 100];
+
+const arr2 = arr1.every((element, index, array) => {
+    console.log(element);
+    console.log(index);
+    console.log(array);
+    console.log(typeof element === 'string');
+    return typeof element === 'string'
+});
+console.log(arr2); // false
 
 let arr3 = ['Hello','6', '12', '15', '100'];
 
