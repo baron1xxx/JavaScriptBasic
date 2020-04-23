@@ -1,6 +1,6 @@
 /**
  * Повертаэ index елемента що шукається або -1, якщо не знайдено.
- * @param searchElement - елемент масиву під час ітерації.
+ * @param searchElement - елемент масиву який шукається.
  * @param fromIndex - індекс масиву під час ітерації.
  *                     fromIndex >=  array.length - ПОШУК НЕ ВІДБУВАЄТЬСЯ І ЗАВЖДИ ПОЛВЕРНЕ 'false'!!!
  *                     fromIndex < 0,  fromIndexCount = array.length + fromIndex,
