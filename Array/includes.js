@@ -8,6 +8,13 @@
  */
 // arr.includes(valueToFind, fromIndex)
 
+(function f (a, b, c) {
+    console.log(arguments); // [Arguments] { '0': 10, '1': '50', '2': 'Hello' }
+    console.log([].includes.call(arguments, '50')); // true
+    console.log([].includes.call(arguments, '50', 2)); // false
+    console.log([].includes.call(arguments, 40)); // false
+})(10, '50', 'Hello');
+
 console.log([6, 12, '15', 100, 0, -0, +0, true, false, null, undefined].length);
 
 console.log([6, 12, '15', 100, 0, -0, +0, true, false, null, undefined].includes(100, 3)); // true
