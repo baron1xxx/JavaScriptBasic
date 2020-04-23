@@ -19,3 +19,12 @@ console.log(array.slice(-30)); // [ 1, 2, 3, '5', { name: 'Roman' }, 'Hello' ] �
 
 console.log(array.slice(2, -2)); // [ 3, '5' ] бо починає з початку. !!! beginIndex = 6 + (-2) = 4 !!!
 console.log(array.slice(2, -20)); // [] бо починає з початку. !!! beginIndex = 6 + (-20) = -14 !!!
+
+
+const array2 = [1, 2, 3,'5', {name: 'Roman'}, 'Hello' ];
+
+const sliceArray = array2.slice(2, 5);
+console.log(sliceArray); // [ 3, '5', { name: 'Roman' } ]
+console.log(array2);//  1, 2, 3, '5', { name: 'Roman' }, 'Hello' ]
+sliceArray[2].name = 'Ivan';
+console.log(array2); // [ 1, 2, 3, '5', { name: 'Ivan' }, 'Hello' ]
