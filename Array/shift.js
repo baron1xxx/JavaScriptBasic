@@ -4,6 +4,10 @@
  */
 
 // arr.shift()
-
-console.log(['a', 'b', 'c'].shift()); // a.
+const arr = ['a', 'b', 'c'];
+console.log(arr.shift()); // a.
 console.log([].shift()); // undefined.
+
+// ***!!!!! Міняє масив!!!!***
+console.log(arr);// [ 'b', 'c' ]
+
