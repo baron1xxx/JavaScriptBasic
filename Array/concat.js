@@ -3,10 +3,11 @@
  * return array ПОВЕРХНЕВА КОПІЯ!!!
  */
 // old_array.concat(value1, value2, ..., valueN)
-    let array = [1, 2, 'a', {name: 'Roman'}];
+
+let array = [1, 2, 'a', {name: 'Roman'}];
 
 let newArray = array.concat(['b', 'c', 100], 'Hello', 'Word');
-console.log(newArray);[ 1, 2, 'a', { name: 'Roman' }, 'b', 'c', 100, 'Hello', 'Word' ]
+console.log(newArray);// [ 1, 2, 'a', { name: 'Roman' }, 'b', 'c', 100, 'Hello', 'Word' ]
 
 newArray[2] = 'AAA';
 console.log(newArray);// [ 1, 2, 'AAA', { name: 'Roman' }, 'b', 'c', 100, 'Hello', 'Word' ]
