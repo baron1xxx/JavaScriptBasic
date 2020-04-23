@@ -3,7 +3,7 @@
  *@param callback (
  *  element - елемент масиву під час ітераціїб
  *  index - індекс масиву під час ітераціїб
- *  array - сам масив) - перевіряє чи хочаб один елемент масиву відповідає заданій умові.
+ *  array - сам масив
  *@param thisArg - значення яке буде використовуватись як this у callback.
  *  return new array.
  */
@@ -19,8 +19,8 @@ const flatMapArray = arr.flatMap((el, index, array) => {
 console.log(flatMapArray);
 
 let arr1 = ["Сьогодні сонячно у", "", "Львові"];
-const strings = arr1.flatMap((el) => {
-    thisArg.push(el)
+const strings = arr1.flatMap(function(el) {
+    this.push(el)
     return el.split(' ')
 }, thisArg);
 console.log(strings);
