@@ -4,6 +4,9 @@
  */
 
 // arr.pop()
+const arr = ['a', 'b', 'c'];
 
-console.log(['a', 'b', 'c'].pop()); // c.
+console.log(arr.pop()); // c.
 console.log([].pop()); // undefined.
+ // ****!!!!! Міняє початковий масив !!!!********
+console.log(arr); // [ 'a', 'b' ]
