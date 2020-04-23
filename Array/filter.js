@@ -23,3 +23,25 @@ const filterArray = array.filter(function (el, index, array) {
     return el === this[3]
 }, ['a', 'd', 'c', 'Hello']);
 console.log(filterArray); // [ 'Hello' ]
+
+const filterArray2 = array.filter(function (el) {
+    return typeof el === 'object'
+}, ['a', 'd', 'c', 'Hello']);
+
+filterArray2[0].name = 'Ivan';
+console.log(filterArray2);
+console.log(array);
+console.log('-----------------------------------------');
+filterArray2[0] = {name: 'Sasha'};
+console.log(filterArray2);
+console.log(array);
+
+
+// Чи біжить до кінця масиву чи зупиняється при задовільненні умови
+
+const array2 = [1,'Hello', 2, 3,'5', {name: 'Roman'}, 'Hello', 'word' ];
+const filter = array2.filter((el) => {
+    console.log(el);
+    return el === 'Hello'
+});
+console.log(filter);
